@@ -4,6 +4,10 @@ const {
     JSDOM
 } = jsdom;
 
+const additionalHosts = [
+  'vloggest.com',
+].sort();
+
 // Ids of the headers above the tables to parse
 const headerIds = ['Specifically_dedicated_video_hosting_websites', 'Websites_dedicated_to_adult_and_pornographic_video_sharing'];
 
@@ -47,6 +51,8 @@ const main = async () => {
     console.log("## List provided by https://github.com/wilwade/pihole-block-video\n");
     console.log('## Hosts from https://en.wikipedia.org/wiki/List_of_online_video_platforms');
     hosts.map(h => console.log(h));
+    console.log("\n## Hosts from Additional Hosts");
+    additionalHosts.map(h => console.log(h));
 };
 
 main();

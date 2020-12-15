@@ -37,3 +37,6 @@ youku.com
 younow.com
 youporn.com
 youtube.com
+
+## Hosts from Additional Hosts
+vloggest.com
