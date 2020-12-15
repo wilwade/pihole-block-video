@@ -1,0 +1,24 @@
+{
+  "name": "pihole-block-video",
+  "version": "1.0.0",
+  "description": "PiHole List for blocking Video Sites",
+  "main": "pull.js",
+  "scripts": {
+    "build": "node pull.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilwade/pihole-block-video.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilwade/pihole-block-video/issues"
+  },
+  "homepage": "https://github.com/wilwade/pihole-block-video#readme",
+  "dependencies": {
+    "jsdom": "^16.4.0"
+  }
+}
